@@ -1,0 +1,46 @@
+body {
+	width:960px;
+	margin:30px auto;
+}
+
+main {
+	display: flex;
+}
+
+.logo,
+.navigasi,
+.konten,
+.sidebar,
+.footer {
+	margin-bottom: 5px;
+	padding: 15px 0;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+	background: darkorange;
+	text-align: center;
+}
+
+.navigasi {
+	width: 100%;
+	height: auto;
+	background: yellow;
+}
+
+.konten {
+	width: 60%;
+	background: pink;
+}
+.sidebar {
+	width: 40%;
+	background: violet;
+	text-align: left;
+}
+
+.footer {
+	width: 100%;
+	background: yellow;
+	text-align: center;
+}
